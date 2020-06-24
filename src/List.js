@@ -22,10 +22,32 @@ class List extends Component {
                 "name": "node1",
                 "children": [
                     {
-                        "name": "children1",
+                        "name": "children1OfNode1",
+                        "children": [
+                            {
+                                "name": "grandchildren1OfNode1",
+                                "children":[]
+
+                            }
+                        ]
+
+                    },
+                    {
+                        "name": "children2OfNode1",
+                        "children": []
+
+                    },
+                    {
+                        "name": "children3OfNode1",
+                        "children": []
+
+                    },
+                    {
+                        "name": "children4OfNode1",
                         "children": []
 
                     }
+
 
                 ]
             },
@@ -34,7 +56,22 @@ class List extends Component {
                 "name": "node2",
                 "children": [
                     {
-                        "name": "children2",
+                        "name": "children1OfNode2",
+                        "children": []
+
+                    },
+                    {
+                        "name": "children2ofNode2",
+                        "children": []
+
+                    },
+                    {
+                        "name": "children3OfNode2",
+                        "children": []
+
+                    },
+                    {
+                        "name": "children4ofNode2",
                         "children": []
 
                     }
