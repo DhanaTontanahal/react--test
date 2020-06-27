@@ -7,6 +7,7 @@ import RecursiveRender from './RecursiveRender';
 import AutoCompleteStyled from './practice/AutoComplete/AutoCompleteStyled'
 import Parent from './practice/Parent';
 import AutoComplete from './practice/AutoComplete/AutoComplete'
+import MyWidget from './practice/MyWidget'
 
 function App() {
   return (
@@ -25,8 +26,7 @@ function App() {
 
 
     <div>
-      <h1>React Autocomplete Demo</h1>
-      <h2>Start typing and experience the autocomplete !</h2>
+      <h1>React 'tds-reactcontextmenu' Demo</h1>
       {/* <AutoCompleteStyled
         suggestions={[
           "Alligator",
@@ -41,7 +41,9 @@ function App() {
           "Wetlands"
         ]}
       /> */}
-      <AutoComplete />
+      {/* <AutoComplete /> */}
+
+      <MyWidget />
     </div>
 
 

@@ -7,8 +7,12 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "react": "^16.13.1",
+    "react-bootstrap": "0.33.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "styled-components": "^5.1.1",
+    "tds-reactcolumnchooser": "^1.0.3",
+    "tds-reactcontextmenu": "^1.0.6"
   },
   "scripts": {
     "start": "react-scripts start",
