@@ -1,0 +1,37 @@
+useState doesnot automatically merge and update objects like setState
+we neeed to use the spread operator withthe object name as frst param in setVar convention of setting state with useState hok of React
+===============
+in classses state always object
+with hook
+it can be number/boolean/string/etc
+
+==================
+useEffect:
+========
+ perform side effects in functional components
+replacement of componentDidMount,componentDidUpdate,componentWillUnMount
+
+=========================
+useEffect after first render like componentDidMount and after evry update.
+============
+to conditionally run the useEffect , specify the second parameter.
+
+The second parameter is array
+
+pass the variable name which needs to be countd for.
+
+useEffect(()=>{
+  document.title=`You clicked ${count} times`}, [count])
+
+
+===============
+run useEffect only once
+add empty array as second argument in the useEffect==================
+
+run useEffect with cleeanup
+
+
+
+
+
+

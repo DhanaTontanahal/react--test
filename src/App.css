@@ -1,3 +1,22 @@
+div.relative{
+  position: relative;
+
+  width:200px;
+  height:200px;
+  border:1px solid red;
+}
+
+
+div.absolute{
+  position: absolute;
+  top:60px;
+  right:0;
+
+  width:100px;
+  height:100px;
+  border:1px solid green;
+}
+
 
 .nestedChild{
   font-weight: bold;
