@@ -9,10 +9,21 @@ import Parent from './practice/Parent';
 import AutoComplete from './practice/AutoComplete/AutoComplete'
 import MyWidget from './practice/MyWidget'
 import ClassComponent from './practice/components/ClassComponent'
-import ClickCounter from './practice/components/ClickCounter'
+// import ClickCounter from './practice/components/ClickCounter'
 import HookClickCounter from './practice/components/HookClickCounter'
-import MouseContainer from './practice/components/MouseContainer'
+import DataFetching from './practice/components/DataFetching'
+import C from './practice/Context/C'
+// import ClickCounter from './practice/hoc-practice1/ClickCounter'
+// import HoverCounter from './practice/hoc-practice1/HoverCounter'
 
+import ClickCounter from './practice/renderprops/ClickCounter';
+import HoverCounter from './practice/renderprops/HoverCounter'
+
+import User from './practice/renderprops/User'
+
+import Counter from './practice/renderprops/Counter'
+
+export const UserContext = React.createContext();
 
 function App() {
   return (
@@ -53,7 +64,30 @@ function App() {
 
       {/* <ClickCounter /> */}
 
-      <MouseContainer  />
+      {/* <DataFetching  /> */}
+
+      {/* <UserContext.Provider value={"dhana"}> */}
+      {/* <C /> */}
+      {/* </UserContext.Provider> */}
+
+      {/* <ClickCounter name="Dhana"/> */}
+
+      {/* <HoverCounter /> */}
+
+      {/* <ClickCounter /> */}
+      {/* <HoverCounter /> */}
+
+      {/* // <User render={(isLoggedIn)=> isLoggedIn ? "Dhana" : "Guest"} /> */}
+
+      <Counter render={(count, incrementCount) =>
+        (<ClickCounter count={count} incrementCount={incrementCount} />
+        )} />
+
+      <Counter render={(count, incrementCount) =>
+        (<HoverCounter count={count} incrementCount={incrementCount} />
+        )} />
+
+
     </div>
 
 
