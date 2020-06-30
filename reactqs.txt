@@ -1,0 +1,34 @@
+What is HOC ?
+what is render props ?
+Can you explain about React lifecycle methods?
+Will the component render again if setState the same value as before ?
+What is pure component?
+Explain about the redux flow?
+What is the mandatory block in a React compoennt?
+IS Render mandatory in React compoennt?
+What is reconciliation in the context of React ?
+Did you work on writing custom middleware ?
+What is virtuual DOM in react ?
+What are controlled components?
+What are uncontrolled components?
+Can you explain how two components communicate to each other ?
+How to pass data from parent to child and vice versa?
+Explain about React router ?
+What are refs in React ?
+What is forwarding refs ?
+What is conext in React ?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
