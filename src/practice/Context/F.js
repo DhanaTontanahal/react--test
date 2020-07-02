@@ -5,6 +5,7 @@ class F extends Component {
     render() {
         return (
             <div>
+                  Component F
                 <UserContext.Consumer>
                     {
                         user=>{
@@ -12,7 +13,7 @@ class F extends Component {
                         }
                     }
                 </UserContext.Consumer>
-                 Component F
+               
                
                
             </div>

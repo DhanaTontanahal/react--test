@@ -22,6 +22,8 @@ import HoverCounter from './practice/renderprops/HoverCounter'
 import User from './practice/renderprops/User'
 
 import Counter from './practice/renderprops/Counter'
+import ParentComponent from './practice/refs/ParentComponent'
+
 
 export const UserContext = React.createContext();
 
@@ -79,15 +81,12 @@ function App() {
 
       {/* // <User render={(isLoggedIn)=> isLoggedIn ? "Dhana" : "Guest"} /> */}
 
-      <Counter render={(count, incrementCount) =>
-        (<ClickCounter count={count} incrementCount={incrementCount} />
-        )} />
+      {/* <Counter render={(count, incrementCount) =>(<ClickCounter count={count} incrementCount={incrementCount} />)} /> */}
 
-      <Counter render={(count, incrementCount) =>
-        (<HoverCounter count={count} incrementCount={incrementCount} />
-        )} />
+      {/* <Counter render={(count, incrementCount) =>(<HoverCounter count={count} incrementCount={incrementCount} />)} /> */}
 
 
+      <ParentComponent />
     </div>
 
 

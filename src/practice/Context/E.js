@@ -1,14 +1,14 @@
-import React, { Component } from 'react'
-import F from './F';
+import React , {useContext} from 'react'
+import {UserContext} from '../../App'
 
-class E extends Component {
-    render() {
-        return (
-            <div>
-                <F />
-            </div>
-        )
-    }
+function E() {
+    const user = useContext(UserContext);
+    console.log(user)
+    return (
+        <div>
+            {user}
+        </div>
+    )
 }
 
 export default E
